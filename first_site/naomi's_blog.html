@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+  <style>
+  body {
+  font-family: helvetica;
+}
+    header {
+      text-align: center;
+      background: url('https://purplewoods.files.wordpress.com/2017/10/062.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 18px;
+      color: #323440;
+    }
+    p {
+      font-size: 15px;
+      color: #323440;
+
+    }
+    img {
+      margin: 75px 0px 0px 0px;
+      border: 2px solid white;
+      border-radius: 40px;
+    }
+    ul {
+      padding: 15px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      font-size: 15px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 20px;
+        padding: 50px;
+      }
+      li {
+        padding: 50px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://purplewoods.files.wordpress.com/2017/10/wheel-portal-squared2.jpg">
+    <h1>Naomi's Blog</h1>
+    <ul>
+      <li><a href="https://www.etsy.com/shop/NaomiVonaArt"target="_blank">Etsy Shop</a></li>
+      <li><a href="https://society6.com/naomivona1"target="_blank">Art Prints</a></li>
+      <li><a href="http://www.saatchiart.com/naomivona"target="_blank">Original Art</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2><b>Biography</b></h2>
+    <p>I work on vintage and found images creating freaky handmade collages. I consider myself as a “photo and video archival parasite”, but with no bad intentions. 
+    <p class="indent"></p>
+   <p>I draw portals on old photos, postcards and vinyl covers, because I believe that in some way they can allow me to travel in time and space. 
+    <p class="indent"></p>
+   <p>Every work is basically composed of three elements: my personal life background, my inspirations and subconscious, that is also the glue that puts all together.</p>
+    <button>Discover More</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>

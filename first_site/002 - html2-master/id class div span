@@ -1,0 +1,24 @@
+<img id="hello-another-world" src="">
+
+#hello-another-world {
+	
+}
+
+
+
+<a class="hello-world" href=""></a>
+
+hi {
+
+	}
+
+.hello-world {
+	
+}
+
+inserire il comando in html per poi andare in css e inserire il codice con il comando ad hoc. 
+id = singolo elemento da cambiare
+class = serie di elementi che devono essere cambiati insieme con gli stessi parametri
+
+div = divide e stacca le sezioni del codice
+span = cambiare una parola specifica in un paragrafo

@@ -1,0 +1,23 @@
+h1 { 
+	color: red; 
+}
+p{
+font-family: 'Arial';
+color:blue;
+font-size: 16px;
+}
+ul li {
+	background-color: yellow;
+}
+h2 {
+font-size: 20px;
+color: green;
+background-color: orange;
+}
+h3 {
+background-color: green;
+font-size: 2px; 
+}
+ol li {
+	background-color: teal;
+}
